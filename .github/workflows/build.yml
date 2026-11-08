@@ -2,8 +2,6 @@ name: Build APK
 
 on:
   push:
-    paths:
-      - "project.zip"
   workflow_dispatch:
 
 permissions:
